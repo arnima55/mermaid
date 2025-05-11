@@ -1,0 +1,8 @@
+graph TD
+    A[Cognizance of Offence] --> B(Framing of Charges);
+    B --> C{Plea of Guilty?};
+    C -- Yes --> D[Conviction];
+    C -- No --> E(Prosecution Evidence);
+    E --> F(Defence Evidence);
+    F --> G(Final Arguments);
+    G --> H{Acquittal/Conviction};
